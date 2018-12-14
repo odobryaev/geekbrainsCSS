@@ -1,0 +1,182 @@
+.body {
+    margin:0;
+}
+
+.header {
+    width: 100%;
+    height: 700px;
+    background: #abeafa;
+    float: left;
+}
+
+.headerInside {
+    width: 1170px;
+    margin: 0 auto;
+    height: inherit;
+    background:
+            url("images/surfhouse-logo.png") no-repeat 70px 24px;
+
+}
+
+.welcomeBox {
+    background-color:  #fff51f;
+    width: 270px;
+    height: 300px;
+    position: absolute;
+    top: 336px;
+}
+
+.welcomeTitle {
+    font-family: Raleway;
+    color:  #333333;
+    font-size: 30px;/* Approximation due to font substitution */
+    font-weight: 700;
+    line-height: 30px;/* Approximation due to font substitution */
+    text-align: left;
+    position: relative;
+    left: 25px;
+    top: 82px;
+}
+
+.welcomeText {
+    font-family: Raleway;
+
+    font-size: 18px;/* Approximation due to font substitution */
+    font-weight: 700;
+    line-height: 14px;/* Approximation due to font substitution */
+
+    position: relative;
+    left: 22px;
+    top: 94px;
+}
+
+.slide {
+    position: absolute;
+    right: 222px;
+    top: 243px;
+}
+
+.slideTitle {
+    font-family: Raleway;
+    color:  #fff51f;
+    font-size: 48px;/* Approximation due to font substitution */
+    font-weight: 700;
+    line-height: 34px;/* Approximation due to font substitution */
+    text-align: left;
+}
+
+.slideText {
+    font-family: Raleway;
+    color:  #fff51f;
+    font-size: 18px;/* Approximation due to font substitution */
+    font-weight: 400;
+    line-height: 24px;/* Approximation due to font substitution */
+    text-align: left;
+}
+
+.slideRef {
+    font-family: Raleway;
+    color: black;
+    background: #fff51f;
+    font-size: 14px;
+    font-weight: 700;
+    display: inline-block;
+    margin-top: 60px;
+    text-decoration: none;
+    padding: 18px 20px;
+    position: relative;
+    top: 48px;
+}
+
+.content {
+    min-height: 800px;
+    float: left;
+    margin: 0 auto;
+    background-color: #f8f8f8;
+}
+
+.contentInside{
+    width: 1170px;
+    float: left;
+}
+
+.contentLeft {
+    width: 270px;
+    float: left;
+
+}
+
+.menu li {
+    list-style-type: none;
+}
+
+.menu li a{
+    display: block;
+    padding: 15px 42px;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #26d2fc;
+    color: black;
+    font-weight: 700;
+}
+
+.menu li:first-of-type a{
+    background-color: #333333;
+    color: white;
+    padding: 28px 42px;
+}
+
+.menu li:hover a{
+    background-color: #333333;
+    color: white;
+}
+
+.contentCenter {
+    width: 871px;
+    float: right;
+}
+
+.productsTitle {
+    font-family: Roboto;
+    color:  #707070;
+    font-size: 22px;/* Approximation due to font substitution */
+    font-weight: 900;
+    font-style: italic;
+    text-align: left;
+    background-color: #f8f8f8;
+    padding: 20px;
+}
+
+.productsList {
+
+}
+
+.productItem {
+    width: 270px;
+    height: 320px;
+    background-color: white;
+}
+
+.productImage {
+
+}
+
+.productName {
+    font-family: Roboto;
+    color:  #333333;
+    font-size: 14px;/* Approximation due to font substitution */
+    font-weight: 900;
+    font-style: italic;
+    line-height: 18px;/* Approximation due to font substitution */
+    text-align: left;
+}
+
+.productPrice {
+    font-family: Roboto;
+    color:  #333333;
+    font-size: 18px;/* Approximation due to font substitution */
+    font-weight: 900;
+    font-style: italic;
+    text-align: right;
+}
